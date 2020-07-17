@@ -38,6 +38,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CustomerController {
+
+    @SuppressWarnings({ "unused" })
     private final CustomerDao customerDao;
     private final CountryDao countryDao;
 
